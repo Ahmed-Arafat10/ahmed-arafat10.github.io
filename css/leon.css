@@ -189,7 +189,7 @@ body {
 }
 
 .landing .intro-text {
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 25%;
     text-align: center;
@@ -512,6 +512,9 @@ body {
 }
 
 /* End Footer */
+
+
+/*I wont use it*/
 .cust-hr {
     width: 30%;
     height: 2px;
