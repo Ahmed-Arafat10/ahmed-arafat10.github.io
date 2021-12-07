@@ -418,7 +418,7 @@ body {
 
 .about .about-content .text p:first-of-type {
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1.2;
     margin-bottom: 50px;
 }
 
@@ -429,7 +429,7 @@ body {
 }
 
 .about .about-content .text p:last-of-type {
-    line-height: 2;
+    line-height: 1.2;
     color: #777;
 }
 
