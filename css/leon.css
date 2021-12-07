@@ -509,3 +509,9 @@ body {
     color: var(--main-color);
 }
 /* End Footer */
+.cust-hr
+{
+    width: 30%;
+    height: 2px;
+    background-color: #ebeced;
+}
