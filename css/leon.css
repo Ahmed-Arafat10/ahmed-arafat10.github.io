@@ -527,3 +527,8 @@ body {
         margin-top: 60px;
     }
 }
+
+.social a:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(2);
+}
