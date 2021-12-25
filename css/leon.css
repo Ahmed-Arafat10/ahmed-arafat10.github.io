@@ -327,11 +327,6 @@ body {
 }
 
 
-@media (max-width: 1199px) {
-    .image-column {
-        display: none;
-    }
-}
 
 .col .image::before {
     content: "";
@@ -342,6 +337,11 @@ body {
     position: absolute;
     left: 470px;
     z-index: -1;
+}
+@media (max-width: 777px) {
+    .col .image::before {
+        display: none;
+    }
 }
 
 #ging-watching {
@@ -428,7 +428,7 @@ body {
 .about .about-content .image::before {
     content: "";
     position: absolute;
-    background-color: #ebeced;
+    background-color: #aecdeb;
     width: 100px;
     height: calc(100% + 60px);
     top: -30px;
