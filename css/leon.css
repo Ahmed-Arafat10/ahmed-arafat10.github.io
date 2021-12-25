@@ -295,6 +295,7 @@ body {
 .services .services-content .srv .text {
     flex: 1;
     text-align: justify;
+    text-align-last: center;
 }
 
 .services .services-content .srv .text h3 {
