@@ -210,14 +210,19 @@ body {
 .landing .intro-text p {
     font-size: 19px;
     line-height: 1.8;
-    color: wheat;
+    color: #ddd;
 }
 
 @media (max-width:767px) {
 
     .landing .intro-text h1 {
-        font-size: 30px !important;
+        font-size: 30px;
     }
+
+    .landing .intro-text p {
+        font-size: 15px;
+    }
+
 }
 
 /* Landing Section End */
@@ -325,8 +330,17 @@ body {
     height: calc(100% + 100px);
     top: -50px;
     position: absolute;
-    left: 530px;
+    left: 470px;
     z-index: -1;
+}
+
+#ging-watching {
+    font-size: 30px;
+    font-weight: bold;
+    color: wheat;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 /* Service Section End */
@@ -532,6 +546,7 @@ body {
 .footer span {
     font-weight: bold;
     color: rgb(48, 105, 211);
+    font-style: italic;
 }
 
 /* End Footer */
