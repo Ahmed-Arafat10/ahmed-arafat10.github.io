@@ -301,12 +301,14 @@ body {
     flex-basis: 60px;
 }
 
-.services .services-content .srv .text {
+.services .services-content .srv .text h3{
+    flex: 1;
+    text-align: center;
+}
+.services .services-content .srv .text p{
     flex: 1;
     text-align: justify;
-    text-align-last: center;
 }
-
 .services .services-content .srv .text h3 {
     margin: 0 0 20px;
 }
