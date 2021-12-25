@@ -15,6 +15,7 @@
     -o-user-select: none;
     user-select: none;
 }
+
 img {
     pointer-events: none;
 }
@@ -562,5 +563,6 @@ body {
 .cust-hr {
     width: 30%;
     height: 2px;
-    background-color: #ebeced;
+    background-color: #66696b;
+    border-radius: 30px;
 }
