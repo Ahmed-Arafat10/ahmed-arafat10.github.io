@@ -30,6 +30,15 @@ video {
     width: 60%;
 }
 
+@media (max-width:850px) {
+    video {
+        margin-top: 20px;
+        border-radius: 30px;
+        width: 90% !important;
+    } 
+}
+
+
 img {
     pointer-events: none;
 }
